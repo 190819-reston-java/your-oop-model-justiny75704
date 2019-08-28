@@ -7,7 +7,7 @@ public class Novel extends WorkOfArt implements Serializable, Written {
 	public static int numOfInstantiations = 0;
 
 	public Novel() {
-		this("Tony Morrsion", "The Bluest Eye", 1970);
+		this("Tony Morrison", "The Bluest Eye", 1970);
 	}
 
 	public Novel(String creator, String title, int year) {
