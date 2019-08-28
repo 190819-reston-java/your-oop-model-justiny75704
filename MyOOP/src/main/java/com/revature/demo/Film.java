@@ -6,7 +6,7 @@ public class Film extends WorkOfArt implements Serializable {
 	public static int numOfInstantiations = 0;
 
 	public Film() {
-		this("Eternal Sunshine of the Spotless Mind", "Michael Gondry", 2004);
+		this("Michael Gondry", "Eternal Sunshine of the Spotless Mind", 2004);
 	}
 
 	public Film(String creator, String title, int year) {
