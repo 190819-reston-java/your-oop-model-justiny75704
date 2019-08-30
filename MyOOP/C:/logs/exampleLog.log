@@ -1,0 +1,141 @@
+2019-08-29 16:18:06 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:18:57 TRACE ArtDriver:77 - WorkOfArt [creator=Michel Gondry, title=Eternal Sunshine of the Spotless Mind, year=2004] Object successfully created.
+2019-08-29 16:18:57 TRACE ArtDriver:79 - WorkOfArt [creator=Michel Gondry, title=Eternal Sunshine of the Spotless Mind, year=2004] Object successfully added to TreeSet.
+2019-08-29 16:18:57 INFO  ArtDriver:97 - All lines written to library file successfully, exiting.
+2019-08-29 16:20:15 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:20:43 TRACE ArtDriver:77 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully created.
+2019-08-29 16:20:43 TRACE ArtDriver:79 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully added to TreeSet.
+2019-08-29 16:21:26 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:21:41 TRACE ArtDriver:77 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully created.
+2019-08-29 16:21:41 TRACE ArtDriver:79 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully added to TreeSet.
+2019-08-29 16:22:35 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:22:47 TRACE ArtDriver:77 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully created.
+2019-08-29 16:22:47 TRACE ArtDriver:79 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully added to TreeSet.
+2019-08-29 16:24:55 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:25:16 TRACE ArtDriver:78 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully created.
+2019-08-29 16:25:16 TRACE ArtDriver:80 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully added to TreeSet.
+2019-08-29 16:25:41 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:25:52 TRACE ArtDriver:78 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully created.
+2019-08-29 16:25:52 TRACE ArtDriver:80 - WorkOfArt [creator=Spike Jonze, title=Her, year=2013] Object successfully added to TreeSet.
+2019-08-29 16:26:11 TRACE ArtDriver:78 - WorkOfArt [creator=Soffia Coppola, title=Lost in Translation, year=2003] Object successfully created.
+2019-08-29 16:26:11 TRACE ArtDriver:80 - WorkOfArt [creator=Soffia Coppola, title=Lost in Translation, year=2003] Object successfully added to TreeSet.
+2019-08-29 16:34:12 ERROR ArtDriver:58 - Library creation failed.
+java.nio.file.FileAlreadyExistsException: YourLibrary.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at com.revature.demo.ArtDriver.createLibrary(ArtDriver.java:56)
+	at com.revature.demo.ArtDriver.main(ArtDriver.java:47)
+2019-08-29 16:34:12 INFO  ArtDriver:60 - Library successfully created: null
+2019-08-29 16:34:57 INFO  ArtDriver:60 - Library successfully created: YourLibrary.txt
+2019-08-29 16:35:12 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:35:12 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:35:36 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:35:36 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:36:01 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:36:01 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:36:37 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:36:37 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:37:04 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:37:04 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:37:06 INFO  ArtDriver:97 - All lines written to library file successfully, exiting.
+2019-08-29 16:46:11 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 16:46:30 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:46:30 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:46:58 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:46:58 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:47:25 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:47:25 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:47:28 INFO  ArtDriver:97 - All lines written to library file successfully, exiting.
+2019-08-29 16:49:30 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 16:49:39 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:49:39 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:49:56 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:49:56 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:50:40 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 16:50:46 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:50:46 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:50:57 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:50:57 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:51:15 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:51:15 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:51:18 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.
+2019-08-29 16:52:24 ERROR ArtDriver:58 - Library creation failed.
+java.nio.file.FileAlreadyExistsException: YourFilmLibrary.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at com.revature.demo.ArtDriver.createLibrary(ArtDriver.java:56)
+	at com.revature.demo.ArtDriver.main(ArtDriver.java:47)
+2019-08-29 16:52:24 INFO  ArtDriver:60 - Library successfully created: null
+2019-08-29 16:52:32 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:52:32 TRACE ArtDriver:80 - userLibrary
+2019-08-29 16:52:47 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 16:52:56 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:52:56 TRACE ArtDriver:80 - [Director: Jonze / Title: Her / Year Released: 2013]
+2019-08-29 16:53:07 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:53:07 TRACE ArtDriver:80 - [Director: Jonze / Title: Her / Year Released: 2013]
+2019-08-29 16:54:38 ERROR ArtDriver:58 - Library creation failed.
+java.nio.file.FileAlreadyExistsException: YourFilmLibrary.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at com.revature.demo.ArtDriver.createLibrary(ArtDriver.java:56)
+	at com.revature.demo.ArtDriver.main(ArtDriver.java:47)
+2019-08-29 16:54:38 INFO  ArtDriver:60 - Library successfully created: null
+2019-08-29 16:54:47 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:54:47 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:54:58 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:54:58 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:56:04 ERROR ArtDriver:58 - Library creation failed.
+java.nio.file.FileAlreadyExistsException: YourFilmLibrary.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at com.revature.demo.ArtDriver.createLibrary(ArtDriver.java:56)
+	at com.revature.demo.ArtDriver.main(ArtDriver.java:47)
+2019-08-29 16:56:04 INFO  ArtDriver:60 - Library successfully created: null
+2019-08-29 16:56:11 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:56:11 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:56:11 TRACE ArtDriver:81 - [Director: Jonze / Title: Her / Year Released: 2013]
+2019-08-29 16:56:19 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 16:56:19 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 16:56:19 TRACE ArtDriver:81 - [Director: Coppola / Title: Lost / Year Released: 2003, Director: Jonze / Title: Her / Year Released: 2013]
+2019-08-29 21:41:59 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 21:42:11 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:42:11 TRACE ArtDriver:81 - [Director: Spike Jonze / Title: Her / Year Released: 2013]
+2019-08-29 21:42:51 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:42:51 TRACE ArtDriver:81 - [Director: Sofia Coppola / Title: Lost in Translation / Year Released: 2003, Director: Spike Jonze / Title: Her / Year Released: 2013]
+2019-08-29 21:43:16 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:43:16 TRACE ArtDriver:81 - [Director: Sofia Coppola / Title: Lost in Translation / Year Released: 2003, Director: Spike Jonze / Title: Her / Year Released: 2013, Director: Christopher Nolan / Title: Interstellar / Year Released: 2014]
+2019-08-29 21:43:22 INFO  ArtDriver:97 - All lines written to library file successfully, exiting.
+2019-08-29 21:44:17 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 21:44:29 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:44:29 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:44:47 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:44:47 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:45:18 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:45:18 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:45:36 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:45:36 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:46:13 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:46:13 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:46:15 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.
+2019-08-29 21:46:42 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-29 21:46:51 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:46:51 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:47:05 TRACE ArtDriver:78 - Object successfully created.
+2019-08-29 21:47:05 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-29 21:47:07 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.

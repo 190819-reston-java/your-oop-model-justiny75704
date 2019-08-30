@@ -29,4 +29,9 @@ public class Film extends WorkOfArt implements Serializable {
 		}
 		return consumed;
 	}
+	
+	@Override
+	public String toString() {
+		return "Director: " + this.getCreator() + " / Title: " + this.getTitle() + " / Year Released: " + this.getYear();
+	}
 }

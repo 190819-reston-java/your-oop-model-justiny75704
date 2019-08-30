@@ -38,4 +38,9 @@ public class Novel extends WorkOfArt implements Serializable, Written {
 		return consumed;	
 	}
 
+	@Override
+	public String toString() {
+		return "Author: " + this.getCreator() + " / Title: " + this.getTitle() + " / Year Published: " + this.getYear();
+	}
+
 }
