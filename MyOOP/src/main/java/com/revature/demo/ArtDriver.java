@@ -54,7 +54,7 @@ public class ArtDriver {
 		Path p = null;
 		try {
 			p = Files.createFile(Paths.get("YourFilmLibrary.txt"));
-		} catch (IOException e) {
+		} catch (IOException e) { // checked exception
 			logger.error("Library creation failed.", e);
 		}
 		logger.info("Library successfully created: " + p);
@@ -89,7 +89,7 @@ public class ArtDriver {
 				String content = ele.toString();
 				try {
 					Files.write(p, Collections.singleton(content), StandardOpenOption.APPEND);
-				} catch (IOException e) {
+				} catch (IOException e) { // checked exception
 					logger.fatal("Writing to library file failed. Exiting", e);
 				}
 			}

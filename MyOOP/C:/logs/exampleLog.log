@@ -139,3 +139,17 @@ java.nio.file.FileAlreadyExistsException: YourFilmLibrary.txt
 2019-08-29 21:47:05 TRACE ArtDriver:78 - Object successfully created.
 2019-08-29 21:47:05 TRACE ArtDriver:80 - Object successfully added to TreeSet.
 2019-08-29 21:47:07 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.
+2019-08-30 09:02:14 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-30 09:02:22 TRACE ArtDriver:78 - Object successfully created.
+2019-08-30 09:02:22 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-30 09:02:40 TRACE ArtDriver:78 - Object successfully created.
+2019-08-30 09:02:40 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-30 09:05:36 TRACE ArtDriver:78 - Object successfully created.
+2019-08-30 09:05:36 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-30 09:05:38 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.
+2019-08-30 13:40:50 INFO  ArtDriver:60 - Library successfully created: YourFilmLibrary.txt
+2019-08-30 13:41:18 TRACE ArtDriver:78 - Object successfully created.
+2019-08-30 13:41:18 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-30 13:41:35 TRACE ArtDriver:78 - Object successfully created.
+2019-08-30 13:41:35 TRACE ArtDriver:80 - Object successfully added to TreeSet.
+2019-08-30 13:41:37 INFO  ArtDriver:96 - All lines written to library file successfully, exiting.
